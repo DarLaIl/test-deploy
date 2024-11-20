@@ -1,0 +1,19 @@
+.controlBtn {
+    text-align: center;
+    min-width: 80px;
+    padding: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #0d4129;
+    background-color: #c8cdac;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+}
+
+@media (hover: hover) {
+    .controlBtn:hover {
+        background-color: #0d4129;
+        color: #d0e1ba;
+    }
+}

@@ -1,0 +1,11 @@
+.editUserInfoButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media (hover: hover) {
+    .editUserInfoButton:hover {
+        scale: 1.2;
+    }
+}
